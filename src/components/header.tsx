@@ -1,5 +1,5 @@
 import WordMark from "@/components/word-mark";
-import { Navbar } from "@/components/navbar";
+import Navbar from "@/components/navbar";
 import { createClient } from "@/prismicio";
 
 export const Header = async () => {

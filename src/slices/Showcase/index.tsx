@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { PiArrowsClockwise, PiGear } from "react-icons/pi";
 // import AnimatedContent from "./AnimatedContent";
 import Bounded from "@/components/bounded";
-import { ButtonLink } from "@/components/button-link";
+import ButtonLink from "@/components/button-link";
 
 const icons = {
   gear: <PiGear />,
@@ -28,9 +28,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
       className="relative"
     >
       <div className="glow absolute -z-10 aspect-square w-full max-w-xl rounded-full bg-blue-400/20 blur-3xl filter" />
-      {/* 
-      <AnimatedContent>
-        </AnimatedContent> */}
+
       <PrismicRichText
         field={slice.primary.heading}
         components={{
